@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./exam.css">
+</head>
+<body>
+    <div >
+        <div style="text-align: center;width: 80%;">
+            FeedBack TA
+        </div>
+        <div style="width: 80%;">
+            <div style="text-align: center;">Thay phu day anh em co hay khong</div>
+                <select name="" id="mark">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+
+            <div>
+
+            <div style="display: flex;">
+                <input style="width: 80%;" id="reviewPhu">
+                <button style="width: 20%;" onclick="send()">send </button>
+            </div>
+            </div>
+            
+        </div>
+        <div>
+            <div>
+                <div>
+                    <span id="quantityOfReview"></span>
+                    <span>review</span>
+                </div>
+            </div>
+            <div>
+                Average Rating: <span id="averageRating"></span>
+          </div>
+        <div id="renderHere">
+            <div>
+                <span>
+
+                </span>
+                <span>
+
+                </span>
+                <button onclick="editButton()">edit</button>
+                <button onclick="deleteButton()">X</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <script src="./exam.js"></script>
+</body>
+</html>
